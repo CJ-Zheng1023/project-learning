@@ -1,0 +1,12 @@
+<ul>
+    {{#each  studentList}}
+        <li>name:{{name}} age:{{age}}</li>
+    {{/each}}
+    <br>
+    <br>
+    <br>
+    {{#if user}}
+        <div>{{user.school}}</div>
+        <div>{{user.teacher}}</div>
+    {{/if}}
+</ul>
